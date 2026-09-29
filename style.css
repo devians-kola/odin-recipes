@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+} 
+.playwrite-ca-guides-regular {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #318c6c;
+}
+
+.container {
+  color: #F7F2EB;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center; 
+  margin: auto;
+  font-size: 1.5rem;
+  width: 30%;
+  min-height: 80%;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 10%);
+  background-color: #67243b;
+  border-left: 2rem white dotted;
+}
+.container li{
+  list-style-type: none;
+}
+.container h1 {
+  margin: 20px 0;
+}
+.container a{
+  text-decoration: none;
+  color: #F7F2EB;
+}
+.container a:hover{
+  background-color: #F7F2EB;
+  color: #67243b;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 150ms;
+}
+.container img {
+  border-radius: 2rem;
+  border: 0.5rem white dashed;
+  max-width: 90%;
+
+}
+
+.recipe-container {
+  font-size: 1rem;
+  display: flex;
+  width: 60%;
+  background-color: #67243b;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center; 
+  margin: auto;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 10%);
+  background-color: #67243b;
+  color: #F7F2EB;
+
+}
+.left{
+  height: 100%;
+  width: 100%;
+    border-right: 2px solid #F7F2EB;
+
+}
+.left img{
+  border-radius: 20px;
+  border: 0.4rem dashed #F7F2EB;
+  width: 80%;
+  margin: 2rem 0;
+}
+.left h1{
+  margin-top: 20px;
+}
+
+.left div{
+  font-size: 0.9rem;
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+.left h2{
+  text-decoration: underline;
+}
+.right{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    font-size: 0.9rem;
+    
+}
+.right h2 {
+  margin: 2rem 0;
+  text-decoration: underline;
+}
+.right div {
+  margin: auto;
+  width: fit-content;
+
+}
+.right li{
+  margin: 1rem;
+}
+.right a{
+  color: #F7F2EB;
+  font-size: 2rem;
+
+}
